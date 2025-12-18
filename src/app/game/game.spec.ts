@@ -21,19 +21,3 @@ describe('Game', () => {
     expect(component).toBeTruthy();
   });
 });
-
-export class gameTrigger {
-
-  constructor() {
-    this.render();
-  }
-
-  render() {
-    this.makeForm();
-  }
-
-  makeForm() {
-
-  }
-
-}

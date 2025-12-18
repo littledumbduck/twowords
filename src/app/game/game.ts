@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './game.css',
 })
 export class Game {
+  constructor() {
+    this.render();
+  }
 
+  render() {
+    this.makeForm();
+  }
+
+  makeForm() {
+
+  }
 }
