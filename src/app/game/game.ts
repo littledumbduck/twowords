@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Form } from '../core/models/form';
 
 @Component({
   selector: 'app-game',
@@ -8,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class Game {
   constructor() {
+
     this.render();
   }
 
@@ -15,7 +17,5 @@ export class Game {
     this.makeForm();
   }
 
-  makeForm() {
-
+  renderForm() {
   }
-}
